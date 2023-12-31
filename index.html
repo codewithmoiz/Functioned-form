@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <div id="main">
+            <div id="fees"><p>Form Fees Rs. 100/-</p></div>
+            <div id="second">
+                <!-- <div id="logo">
+                </div> -->
+                <img src="./Logo.PNG" alt="">
+                <!-- <div id="heading"><h1>HAJIYANI SAKEENA IT INSTITUTE</h1></div> -->
+            </div>
+            <div id="third">
+                <div id="th1"><h1>Admission Form</h1></div>
+            </div>
+            <div id="fourth">
+                <!-- <h1>Collaboration with</h1> -->
+            </div>
+            <div id="fifth">
+                <img src="./collobration.PNG" alt="">
+                <label for="formNo">Form No : <input type="number" id="formNo" name="formNo" required></label>
+            </div>
+            <div id="six">
+                <div id="six1">
+                    <div class="six six1">
+                        <label for="applicantName">Applicant's Name: </label> <input type="text" id="applicantName" name="applicantName" required>
+                    </div>
+                    <div class="six six2">
+                        <label for="fatherName">Father/Husband Name: </label> <input type="text" id="fatherName" name="fatherName" required>
+                    </div>
+                    <div class="six six3">
+                        <label for="okhaiMemon"><b>Okhai Memon(Khundi):</b> <input type="text" id="okhaiMemon" name="okhaiMemon" required></label>
+                        <label for="otherCommunity"><b>Other Community:</b> <input type="text" id="otherCommunity" name="otherCommunity" required></label>
+                    </div>
+                    <div class="six six4">
+                        <label for="male"><b>Gender:</b>
+                            <input value="Male" type="radio" name="gender" id="male" required> Male
+                        </label>
+                        <label for="female">
+                            <input value="Female" type="radio" name="gender" id="female" required> Female
+                        </label>
+                        <label for="single"><b>Marital status:</b>
+                            <input value="Single" type="radio" name="maritalStatus" id="single" required> Single
+                        </label>
+                        <label for="married">
+                            <input value="Married" type="radio" name="maritalStatus" id="married" required> Married
+                        </label>
+                    </div>
+                    <div class="six six5">
+                        <label for="qualification"><b>Qualification:</b> <input type="text" id="qualification" name="qualification" required></label>
+                        <label for="profession"><b>Profession:</b> <input type="text" id="profession" name="profession" required></label>
+                    </div>
+                </div>
+                <div id="six2">
+                    <div class="top-6"><p>Photo</p></div>
+                    <div class="bottom-6">
+                        <label for=""><b>Date of Birth</b></label>
+                        <input type="date" id="date" placeholder="DD-MM-YYYY" required>
+                    </div>
+                </div>
+            </div>
+            <div id="seven">
+                <label for="qualification"><b>CNIC No./ B-Form No:</b> <input type="number" id="cnic" name="cnic" required></label>
+                <label for="profession"><b>Jamat Card No:</b> <input type="number" id="jamat" name="jamat" required></label>
+            </div>
+            <div id="eight">
+                <label for="Whatsapp"><b>Whatsapp No:</b> <input type="number" id="Whatsapp" name="Whatsapp" required></label>
+                <label for="Cell"><b>Cell No:</b> <input type="number" id="Cell" name="Cell" required></label>
+                <label for="Email"><b>Email:</b> <input type="email" id="Email" name="Email" required></label>
+            </div>
+            <div id="nine">
+                <input type="submit" value="Submit" onclick="foo()">
+            </div>
+        </div>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
